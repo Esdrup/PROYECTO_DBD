@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FACTURAHORA - Consultar</title>
-    <link rel="stylesheet" href="../styles/catalogo_style.css">
+    <link rel="stylesheet" href="../styles/Consultar.css">
 </head>
 <body>
     <header class="prin">
@@ -54,52 +54,53 @@
     </section>
 
     <section id="section2">
-        <div id="table_category">
-            <div class="category">
-                <input type="checkbox"  id="ch1"><label for="ch1" class="cat">Category 1</label>
+        <div id="filter_group">
+            <div class="gemp">
+                <h3>
+                    GRUPO
+                </h3>
+                <select name="grupo" id="grupo">
+                    <option value="gA0001">Salcedo S.A.C.</option>
+                    <option value="gA0002">CredititosCorp</option>
+                    <option value="gA0003">Mercurios</option>
+                    <option value="gA0004">Fierros Andina</option>
+                </select>
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch2"><label for="ch2" class="cat">Category 2</label>
+            
+            <div class="gemp">
+                <h3>
+                    EMPRESA
+                </h3>
+                <select name="empresa" id="empresa">
+                    <option value="empA0001">Salcedos</option>
+                    <option value="empA0002">Banco Solidario</option>
+                    <option value="empA0003">Republicano</option>
+                    <option value="empA0004">Fierros Andina</option>
+                </select>
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch3"><label for="ch3" class="cat">Category 3</label>
+        </div>
+
+        <div id="filter_user">
+            <div class="fs">
+                <label for="username">USUARIO</label>
+                <input type="text" name="usurname" id="username">
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch4"><label for="ch4" class="cat">Category 4</label>
+
+            <div class="fs">
+                <label for="Nombre">NOMBRE</label>
+                <input type="text" name="nombre" id="nombre">
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch5"><label for="ch5" class="cat">Category 5</label>
+
+            <div class="fs">
+                <label for="username">CORREO</label>
+                <input type="text" name="correo" id="correo">
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch6"><label for="ch6" class="cat">Category 6</label>
+
+            <div class="fs">
+                <input type="button" value="Buscar" id="Buscar_User">
+                <input type="button" value="Nuevo" id="Nuevo_User">
             </div>
-            <div class="category">
-                <input type="checkbox"  id="ch7"><label for="ch7" class="cat">Category 7</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch8"><label for="ch8" class="cat">Category 8</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch9"><label for="ch9" class="cat">Category 9</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch10"><label for="ch10" class="cat">Category 10</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch11"><label for="ch11" class="cat">Category 11</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch12"><label for="ch12" class="cat">Category 12</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch13"><label for="ch13" class="cat">Category 13</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch14"><label for="ch14" class="cat">Category 14</label>
-            </div>
-            <div class="category">
-                <input type="checkbox"  id="ch15"><label for="ch15" class="cat">Category 15</label>
-            </div>
+            
         </div>
     </section>
 

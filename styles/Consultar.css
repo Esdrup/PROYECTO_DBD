@@ -178,17 +178,18 @@ nav li ul li{
 #titulo2{
     margin: 0%;
     padding: 0%;
+    padding-top: 0.1%;
     margin-left: 15px;
     margin-right: 15px;
-    overflow: auto;
     background: rgba(85, 107, 47, 0.7);
     margin-top: 15px;
-    margin-bottom: 0px;
     transition: 0.3s;
+    padding-bottom: 0.1px;
 }
 #section2{
     margin: 0%;
     padding: 0%;
+    margin-top: 0%;
     height: 160px;
     margin-left: 15px;
     margin-right: 15px;
@@ -219,64 +220,45 @@ nav li ul li{
 
 }
 
-#table_category{
-    margin: 0%;
+#filter_group{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
     width: 80%;
 }
 
-.category{
-    display: block;
-    padding: 10px 0px;
-    position: relative;
-    left: 2em;
+.gemp{
+    display: inline-table;
+    width: 49.8%;
+}
+h3{
+    margin-bottom: 2%;
 }
 
-.cat{
-    display: inline;
-    font-size: 25px;
+select{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 5%;
 }
 
-input[type="checkbox"]{
-    display: none;
+#filter_user{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 2.5%;
+    width: 80%;
+    display: inline-flex;
 }
-input[type="checkbox"]+label{
-    cursor: pointer;
-}
-label{
-    border-radius: 50%;
-    border: 2.5px azure;
-    background: transparent;
-    transition: all 0.3s;
-    transform: rotate(0deg);
-    color: azure;
-}
-label:before{
-    content: '';
-    width: 25px;
-    height: 25px;
-    margin-right: 20px;
-    background: none;
-    border-radius: 50%;
-    border: 2.5px azure solid;
-    transform: rotate(360deg);
-    display: inline-block;
-    vertical-align: -6px;
-    text-align:center;
-}
-label:hover{
-    color: rgb(108, 187, 187);
-}
-input[type="checkbox"]:checked +label:before{
-    content: '✓';
-    font-size: 21px;
-    color: azure;
-    display: inline-block;
-    vertical-align: middle;
-    text-align:center;
+.fs{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 25%;
 }
 
-.checky{
-    display: inline;
+.fs > input{
+    width: 100%;
 }
 
 /**/
