@@ -158,8 +158,8 @@ nav li ul li{
 /*---------------------------------------------------*/
 
 #section1{
-    text-align: justify;
-    margin-top: 15px;   
+    text-align: center;
+    margin-top: 15px;
 }
 
 .cuadro{
@@ -262,28 +262,32 @@ select{
 }
 
 /**/
-.producto{
-    margin: 1em;
-    padding: 1em;
+.base{
+    overflow: auto;
+    margin: 0em;
+    padding: 0em;
+    width: 90%;
     display: inline-block;
     background: rgba(128, 128, 128, 0.356);
-    border-radius: 10%;
-    border: 1px gray dotted;
-}
-
-.producto > img{
-    width: 200px;
     height: 200px;
-    padding-bottom: 16px;
-    border-bottom: 2px rgb(97, 97, 97) dotted;
+}
+.base::-webkit-scrollbar{
+    background: rgb(75, 84, 104);
+}
+.base::-webkit-scrollbar-thumb{
+    background: rgba(23, 22, 46, 0.4);
+}
+.base::-webkit-scrollbar-thumb:hover{
+    background: rgba(93, 110, 187, 0.8);
 }
 
 .etiquetas{
     margin: 0%;
     padding: 0%;
+    border-bottom: 2px rgb(97, 97, 97) dotted;
 }
 
-.producto > div > a{
+.base > div > a{
     padding-top: 10px;
     text-decoration: none;
     display: inline-block;
@@ -292,33 +296,23 @@ select{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.nombre{
-    padding-right: 0.25em;
+.eti{
+    padding-left: 3.38em;
+    padding-right: 3.38em;
     padding-bottom: 8px;
     border-right: 2px rgb(97, 97, 97) dotted;
+    border-left: 2px rgb(97, 97, 97) dotted;
 }
-.costo{
-    padding-left: 0.25em;
-    padding-right: 0.5em;
+
+#data{
+    overflow: auto;
+}
+.date{
+    padding-left: 1.97em;
+    padding-right: 1.97em;
     padding-bottom: 8px;
     border-right: 2px rgb(97, 97, 97) dotted;
-}
-
-.carrito{
-
-    text-decoration: none;
-    display: inline;
-    text-align: center;
-    color:azure;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 0.25em;
-    padding-bottom: 0%;
-    margin: 0%;
-    width: 1.5em;
-    height: 1.5em;
-    position: relative;
-    top: 8px;
-    
+    border-left: 2px rgb(97, 97, 97) dotted;
 }
 
 /*---------------------------------------------------------------*/
