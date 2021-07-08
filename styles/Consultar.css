@@ -160,6 +160,7 @@ nav li ul li{
 #section1{
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .cuadro{
@@ -190,7 +191,7 @@ nav li ul li{
     margin: 0%;
     padding: 0%;
     margin-top: 0%;
-    height: 160px;
+    height: 220px;
     margin-left: 15px;
     margin-right: 15px;
     overflow: auto;
@@ -262,58 +263,47 @@ select{
 }
 
 /**/
-.base{
+#base{
     overflow: auto;
     margin: 0em;
     padding: 0em;
     width: 90%;
     display: inline-block;
     background: rgba(128, 128, 128, 0.356);
-    height: 200px;
+    height: 400px;
 }
-.base::-webkit-scrollbar{
+#base::-webkit-scrollbar{
     background: rgb(75, 84, 104);
 }
-.base::-webkit-scrollbar-thumb{
+#base::-webkit-scrollbar-thumb{
     background: rgba(23, 22, 46, 0.4);
 }
-.base::-webkit-scrollbar-thumb:hover{
+#base::-webkit-scrollbar-thumb:hover{
     background: rgba(93, 110, 187, 0.8);
 }
 
-.etiquetas{
-    margin: 0%;
+#etiquetas{
+    width: 95%;
+    margin: 0% 2.5%;
     padding: 0%;
-    border-bottom: 2px rgb(97, 97, 97) dotted;
-}
-
-.base > div > a{
     padding-top: 10px;
+}
+#table_head{
+    background-color: rgba(59, 59, 59, 0.336);
+}
+.eti{
     text-decoration: none;
-    display: inline-block;
+}
+tr a{
+    text-decoration: none;
     text-align: center;
     color:azure;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.eti{
-    padding-left: 3.38em;
-    padding-right: 3.38em;
-    padding-bottom: 8px;
-    border-right: 2px rgb(97, 97, 97) dotted;
-    border-left: 2px rgb(97, 97, 97) dotted;
+.table_body{
+    margin-top: 3%;
 }
 
-#data{
-    overflow: auto;
-}
-.date{
-    padding-left: 1.97em;
-    padding-right: 1.97em;
-    padding-bottom: 8px;
-    border-right: 2px rgb(97, 97, 97) dotted;
-    border-left: 2px rgb(97, 97, 97) dotted;
-}
 
 /*---------------------------------------------------------------*/
 
