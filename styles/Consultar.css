@@ -60,7 +60,6 @@ h1{
     color: azure;
     margin: 0%;
     text-decoration: none;
-    display: inline-block;
     float: right;
     margin-top: 14px;
     margin-right: 30px;
@@ -270,7 +269,7 @@ select{
     width: 90%;
     display: inline-block;
     background: rgba(128, 128, 128, 0.356);
-    height: 400px;
+    height: 395px;
 }
 #base::-webkit-scrollbar{
     background: rgb(75, 84, 104);

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTURAHORA - Consultar</title>
+    <link rel="stylesheet" href="../styles/Consultar.css">
+</head>
+<body>
+    <header class="prin">
+        
+        <div id="titulo">
+            <h1>FacturAhora</h1>
+        </div>
+        <a href="#" id="b_sign_up" class="sui">Registrarse</a>
+        <a href="#" id="b_sign_in" class="sui">Iniciar Seción</a>
+        <div id="principal_menu">
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Emitir</a>
+                        <ul>
+                            <li><a href="#">Facturas</a></li>
+                            <li><a href="#">Boletas</a></li>
+                            <li><a href="#">Nota de Credito</a></li>
+                            <li><a href="#">Nota de Debito</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Consultar_Usuario.html">Consultar</a>
+                        <ul>
+                            <li><a href="Consultar_Comprobante.html">Comprobantes</a></li>
+                            <li><a href="Consultar_Usuario.html">Usuarios</a></li>
+                            <li><a href="Consultar_Cliente.html">Clientes</a></li>
+                            <li><a href="Consultar_Proveedor.html">Proveedores</a></li>
+                            <li><a href="Consultar_Serie.html">Series</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Configurar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="titulo2">
+        <h2 id="subtitulo">
+            CONSULTAR - SERIE
+        </h2>
+    </section>
+
+    <section id="section2">
+        <div id="filter_group">
+            <div class="gemp">
+                <h3>
+                    GRUPO
+                </h3>
+                <select name="grupo" id="grupo">
+                    <option value="gA0001">Salcedo S.A.C.</option>
+                    <option value="gA0002">CredititosCorp</option>
+                    <option value="gA0003">Mercurios</option>
+                    <option value="gA0004">Fierros Andina</option>
+                </select>
+            </div>
+            
+            <div class="gemp">
+                <h3>
+                    EMPRESA
+                </h3>
+                <select name="empresa" id="empresa">
+                    <option value="empA0001">Salcedos</option>
+                    <option value="empA0002">Banco Solidario</option>
+                    <option value="empA0003">Republicano</option>
+                    <option value="empA0004">Fierros Andina</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="filter_user">
+            <div class="fs">
+                <label for="username">USUARIO</label>
+                <input type="text" name="usurname" id="username">
+            </div>
+
+            <div class="fs">
+                <label for="Nombre">NOMBRE</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="fs">
+                <label for="username">CORREO</label>
+                <input type="text" name="correo" id="correo">
+            </div>
+
+            <div class="fs">
+                <input type="button" value="Buscar" id="Buscar_User">
+                <input type="button" value="Nuevo" id="Nuevo_User">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="section1">
+        <div id="base">
+            <table id="etiquetas">
+                <tr id="table_head">
+                    <th>
+                        <a href="#" class="eti">Serie</a>
+                    </th>
+                    <th>
+                        <a href="#" class="eti">Codigo</a>
+                    </th>
+                    <th>
+                        <a href="#" class="eti">Tipo</a>
+                    </th>
+                    <th>
+                        <a href="#" class="eti">Asignación</a>
+                    </th>
+                </tr>
+
+                <!-- TABLAS -->
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+                <tr class="table_body">
+                    <td><a href="#" class="date">prueba Usuario</a></td>
+                    <td><a href="#" class="date"> prueba Nombres y Apellidos</a></td>
+                    <td><a href="#" class="date">pruebaCorreo</a></td>
+                    <td><a href="#" class="date">pruebaOperación</a></td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+    <footer class="prin">
+        <div id="table_foot">
+                <ul>
+                    <li><a href="#">Más Servicios</a></li>
+                    <li><a href="#">Especificaciónes</a></li>
+                    <li><a href="#">Guía de Uso</a></li>
+                    <li><a href="#">Atencion al Cliente</a></li>
+                    <li><a href="#">Politicas y Terminos</a></li>
+                </ul>
+        </div>
+        <div id="derechos">
+            <p>©2021 FACTURAHORA, Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
